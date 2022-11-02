@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(210, 247, 247);
+}
+
+header,
+footer {
+    background-color: rgb(6, 123, 84);
+    padding: 50px 0;
+}
+
+main {
+    min-height: 65vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.position {
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+
+.absolute {
+    background-color: aqua;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 30px;
+}
+
+.popup {
+    width: 400px;
+    padding: 20px;
+    background-color: yellow;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px #000;
+}
+
+button {
+    color: white;
+    background: red;
+    width: 20px;
+    height: 20px;
+    border: 1px solid brown;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
